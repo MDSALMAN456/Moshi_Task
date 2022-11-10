@@ -27,6 +27,18 @@
 .App-link {
   color: #61dafb;
 }
+.wrapper{
+  /* background-image: "url(/BodyImage-2.png)"; */
+  background-image: url("../public/MainBodyImage.svg");
+  /* background-size: 1100px 80vh; */
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html{
+  scroll-behavior: smooth;
+}
 
 @keyframes App-logo-spin {
   from {
